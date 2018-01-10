@@ -2,20 +2,20 @@ package com.javaex.problem01;
 
 public class Base {
 
-    public void service(String state) {
+	public void service(String state) {
 
-        if (state.equals("낮")) {
-            day();
-        } else {
-            night();
-        }
-    }
+		if (state.equals("낮")) {
+			day();
+		} else {
+			night();
+		}
+	}
 
-    public void day() {
-        System.out.println("낮");
-    }
+	public void day() {
+		System.out.println("낮");
+	}
 
-    public void night() {
-        System.out.println("night");
-    }
+	public void night() {
+		System.out.println("night");
+	}
 }
