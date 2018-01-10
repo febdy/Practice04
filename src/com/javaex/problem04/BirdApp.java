@@ -8,6 +8,7 @@ public class BirdApp {
         bird01.fly();
         bird01.sing();
         bird01.showName();
+        bird01.getName();
 
         Bird bird02 = new Sparrow();
         bird02.setName("짹짹이");
